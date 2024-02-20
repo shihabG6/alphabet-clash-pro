@@ -7,6 +7,18 @@ function showSection(sectionId){
   sectionid.classList.remove('hidden')
 }
 
+function getTextValueById(elementId){
+  const element = document.getElementById(elementId);
+  const elemntText = element.innerText;
+  const value = parseInt(elemntText);
+  return value;
+}
+function setElementValue(elementId, value){
+  const element = document.getElementById(elementId);
+  element.innerText=value;
+}
+
+
 function setBackgroundColor(elementId){
   const element = document.getElementById(elementId);
   const add = element.classList.add('bg-orange-400')

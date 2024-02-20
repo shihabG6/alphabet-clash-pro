@@ -90,17 +90,17 @@
            
           <button class="btn bg-violet-400">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
-            Life: <span id="life">3</span>
+            Life: <span id="life">5</span>
           </button>
           <button class="btn bg-violet-400">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
-            Score: <span id="score">2</span>
+            Score: <span id="score">0</span>
           </button>
         </div>
 
         <!-- Game Score section -->
       </section>
-      <section
+      <section id="scoreBord"
         class="hidden scour flex flex-col justify-center items-center h-screen"
       >
         <div class="bg-[#ffffff4f] p-10 rounded-lg text-center space-y-5">
@@ -108,7 +108,7 @@
             <span>Scour:</span>
             <span>12</span>
           </h1>
-          <button class="btn">Play Agani</button>
+          <button onclick="playAgani()" id="playAgain" class="btn">Play Agani</button>
           <p>Play with your pastion</p>
         </div>
       </section>
